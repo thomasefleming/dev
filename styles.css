@@ -3,6 +3,7 @@
   --toronto-text-color: #00b8ff;
   --chiclet-bg-color: rgba(255, 75, 133, 0.7);
   --attribution-color: rgba(255, 75, 133, 0.7);
+  --hamburger-color: white; /* Default hamburger color */
 }
 
 body {
@@ -35,7 +36,7 @@ body {
 .hamburger-icon {
   font-size: 24px;
   cursor: pointer;
-  color: white;
+  color: var(--hamburger-color);
   background: none;
   border: none;
   outline: none;
@@ -48,8 +49,8 @@ body {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 50px;
-  left: 0; /* Align flush with the left edge of the screen */
+  top: 100%; /* Align the top of the menu to the bottom of the hamburger button */
+  left: 0; /* Align flush with the left edge of the hamburger icon */
   background-color: rgba(0, 0, 0, 0.9);
   padding: 10px;
   border-radius: 5px;
