@@ -25,13 +25,13 @@ body {
 
 .page-header {
   display: flex;
-  align-items: center; /* Aligns items vertically */
-  gap: 15px; /* Spacing between the hamburger icon and the text */
-  padding: 0; /* Remove padding to ensure flush alignment */
-  margin: 0; /* Remove margin */
-  width: 100%; /* Ensure the header spans the full width */
+  align-items: center; /* Vertically centers the children */
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
   position: relative;
-  height: 60px; /* You can adjust this to your preferred height */
+  height: 60px; /* Set a fixed height */
 }
 
 
@@ -44,9 +44,14 @@ body {
   outline: none;
   display: block;
   margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
+  padding: 18px 0; /* Adjust padding to center vertically */
 }
 
+.page-header h1 {
+  margin: 0;
+  padding: 0 0 0 15px; /* Add left padding if necessary */
+  line-height: 60px; /* Adjust line height to align vertically */
+}
 .menu-items {
   display: none;
   flex-direction: column;
