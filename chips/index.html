@@ -9,21 +9,29 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="page-header">
+            <button class="hamburger-icon" onclick="toggleMenu()" style="color:  rgba(0, 255, 0, 0.7);">☰</button>
             <h1>
                 <a href="/dev/" class="header-link" style="--header-link-color: rgba(111, 231, 219, 0.7);">thomas e fleming</a>
                 <span class="toronto-text" style="--toronto-text-color: rgba(111, 231, 219, 0.7);">| </span>
                 <a href="/dev/chips/" class="header-link" style="--header-link-color:  #f5eb84;">c h i p s</a>
             </h1>
         </header>
-        <main>
-            <!-- Chips Chiclets section -->
 
-            <div class="container chiclet-container" style="--chiclet-bg-color: rgba(255, 75, 133, 0.7);">
+        <nav class="menu-items">
+            <a href="https://mastodon.social/@flemingthomase" target="_blank">My musings</a>
+            <a href="https://docs.google.com/document/d/1diMIH27Nk8A3_l2DAI-cthbjQsFID2jRcSIwVttRM2s/edit?usp=sharing" target="_blank">My writing</a>
+            <a href="about.html">About me</a>
+        </nav>
+
+        <main>
+
+            <!-- Dev Chiclets section -->
+            <p style="color: #f5eb84;;"><b>They're everywhere</b></p>
+            <div class="chiclet-container" style="--chiclet-bg-color: rgba(255, 75, 133, 0.7);">
                 <!--Insert link for animated gif beneath chiclets table-->
                 <img class="chiclet-image" alt="Clickable Image" src="https://64.media.tumblr.com/07f0e2b1632232d991bebe1da59e7c17/tumblr_owrsjkejpX1ue08b9o1_500.gif">
-                <!-- Change table text color by adding style tags in head .chiclet-tabl a{ color: ; }-->
-                <table class="chiclet-table" style="color: black;">
+                <table class="chiclet-table">
                     <tr>
                         <td class="chiclet"><a href="../nav/placeholder.html">placeholder</a></td>
                         <td class="chiclet"><a href="../nav/placeholder.html">placeholder</a></td>
@@ -41,17 +49,16 @@
                     </tr>
                 </table>
             </div>
+        </main>
 
-            <!-- Attribution -->
-            <div class="attribution" style=" color: white">
-                <div class="attribution-container">
-                    <div class="attribution">
+        <!-- Attribution overlayed on image -->
+            <div class="attribution-container">
                         <p>Semiconductor animation by Randomberger · <a
                                 href="https://www.tumblr.com/randomlabs/165677876730/welcome-onboard?source=share"
                                 target="_blank" style="color: #f5eb84">View more</a></p>
                     </div>
                 </div>
-        </main>
+
     </div>
 </body>
 </html>
