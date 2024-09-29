@@ -25,13 +25,15 @@ body {
 
 .page-header {
   display: flex;
-  align-items: center;
-  gap: 15px;
+  align-items: center; /* Aligns items vertically */
+  gap: 15px; /* Spacing between the hamburger icon and the text */
   padding: 0; /* Remove padding to ensure flush alignment */
   margin: 0; /* Remove margin */
   width: 100%; /* Ensure the header spans the full width */
   position: relative;
+  height: 60px; /* You can adjust this to your preferred height */
 }
+
 
 .hamburger-icon {
   font-size: 24px;
