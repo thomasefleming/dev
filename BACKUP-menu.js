@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create the hamburger icon and menu container dynamically
         const menuButton = document.createElement('button');
         menuButton.className = 'hamburger-icon';
-        menuButton.innerHTML = 'thomas e fleming |';
-        menuButton.style.color = 'rgba(0, 255, 0, 0.7)';  // Set font color
+        menuButton.innerHTML = '☰';
         menuButton.onclick = toggleMenu;
 
         const menu = document.createElement('nav');
