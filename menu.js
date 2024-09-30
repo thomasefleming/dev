@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="https://thomasefleming.github.io/dev">Home</a>
             <a href="https://mastodon.social/@flemingthomase" target="_blank">My musings</a>
             <a href="https://docs.google.com/document/d/1diMIH27Nk8A3_l2DAI-cthbjQsFID2jRcSIwVttRM2s/edit?usp=sharing" target="_blank">My writing</a>
-            <a href="about.html">About me</a>
+            <a href="chiclets.html">chiclets</a>
         `;
 
         // Add the hamburger icon and the menu to the header
