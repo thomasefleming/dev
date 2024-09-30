@@ -67,7 +67,7 @@ body {
   top: 100%; /* Align the top of the menu to the bottom of the hamburger button */
   left: 0; /* Align flush with the left edge of the hamburger icon */
   background-color: rgba(0, 0, 0, 0.9);
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   gap: 10px;
   z-index: 10;
