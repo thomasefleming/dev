@@ -12,10 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const menu = document.createElement('nav');
         menu.className = 'menu-items';
         menu.innerHTML = `
-            <a href="https://thomasefleming.github.io/dev">Home</a>
             <a href="https://mastodon.social/@flemingthomase" target="_blank">My musings</a>
             <a href="https://docs.google.com/document/d/1diMIH27Nk8A3_l2DAI-cthbjQsFID2jRcSIwVttRM2s/edit?usp=sharing" target="_blank">My writing</a>
-            <a href="chiclets.html">chiclets</a>
+            <a href="https://www.youtube.com/playlist?list=PLnPKoRbj5BWGKs2kXw6ZqlobTlGTMznuz" target="_blank">🎶 I 💚</a>
+            <a href="chiclets.html">Chiclets</a>
+            <a href="https://thomasefleming.github.io/dev">About me</a>
         `;
 
         // Add the hamburger icon and the menu to the header
