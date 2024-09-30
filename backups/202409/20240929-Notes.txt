@@ -1,1 +1,3 @@
-Worked with ChatGPT 4o to change the site homepage design, moving the chiclets to a separate page and moving the bio pic and bio text above the gif image.
+Worked with ChatGPT 4o to change the site homepage design
+- moved the chiclets to a separate page chiclets.html
+- moved the bio pic and bio text so they float above the gif image.
