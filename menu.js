@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         menuButton.innerHTML = 'thomas e fleming |';
         menuButton.style.color = 'rgba(0, 255, 0, 0.7)';  // Set font color
         menuButton.onclick = toggleMenu;
+        
 
         const menu = document.createElement('nav');
         menu.className = 'menu-items';
