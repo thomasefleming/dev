@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="https://www.youtube.com/playlist?list=PLnPKoRbj5BWGKs2kXw6ZqlobTlGTMznuz" target="_blank">🎶 I 💚</a>
             <a href="chiclets.html">Chiclets</a>
             <div class="menu-item" style="position: relative;">
-                <a href="https://thomasefleming.github.io/dev" class="about-me-link">About me</a>
+                < class="about-me-link">About me ⟩</a>
                 <div class="submenu" style="display: none; position: absolute; left: 100%; top: 0; background-color: rgba(0, 0, 0, 0.9); padding: 10px; border-radius: 5px; z-index: 20;">
-                    <a href="https://mastodon.social/@flemingthomase" target="_blank" class="submenu-item" style="display: block; padding: 5px 0; color: white; text-decoration: none;">My musings</a>
-                    <a href="https://docs.google.com/document/d/1diMIH27Nk8A3_l2DAI-cthbjQsFID2jRcSIwVttRM2s/edit?usp=sharing" target="_blank" class="submenu-item" style="display: block; padding: 5px 0; color: white; text-decoration: none;">My writing</a>
+                    <a href="https://mastodon.social/@flemingthomase" target="_blank" class="submenu-item" style="display: block; padding: 10px 0; color: white; text-decoration: none;">My musings</a>
+                    <a href="https://docs.google.com/document/d/1diMIH27Nk8A3_l2DAI-cthbjQsFID2jRcSIwVttRM2s/edit?usp=sharing" target="_blank" class="submenu-item" style="display: block; padding: 10px 0; color: white; text-decoration: none;">My writing</a>
                 </div>
             </div>
         `;
