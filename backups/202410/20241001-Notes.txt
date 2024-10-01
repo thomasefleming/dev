@@ -13,7 +13,7 @@ Two updates:
 --sub-items displayed below, it worked on desktop 
 --span elemement wasn't clickable on mobile devices
 -second iteration, used button element instead of span element
---this changed worked on mobile as well
+--this change worked on mobile as well
 -also updated hamburger to change color and size when clicked
 --highlight colors of the menu selection also adjusted to match change
 
