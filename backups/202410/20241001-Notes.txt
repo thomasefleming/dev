@@ -1,5 +1,5 @@
 Two updates:
-(1) bio containers in CSS
+(1) bio containers in CSS, index.html at site root updated
 (2) hamburger menu revisions
 -----
 (1) updated site homepage with new bio container
@@ -8,7 +8,7 @@ Two updates:
 -rounded edges added to image and container
 -updated profile image file to 3:4 format and png
 -----
-(2) inclusion of submenu on hamburger
+(2) inclusion of submenu on hamburger, menu.js, scripts.js, styles.css revisions
 -initial revision used a span element for the parent item
 --sub-items displayed below, it worked on desktop 
 --span elemement wasn't clickable on mobile devices
@@ -16,6 +16,8 @@ Two updates:
 --this change worked on mobile as well
 -also updated hamburger to change color and size when clicked
 --highlight colors of the menu selection also adjusted to match change
+--Also added hamburger color and size change effect, these were implemented with styles.css changes
+---hamburger icon and menu icon updates
 
 My collaboration partner today was again ChatGPT 4o
 
