@@ -9,6 +9,11 @@
     <script src="menu.js" defer></script> <!-- Include the menu script globally -->
     <link rel="stylesheet" href="styles.css">
     <style>
+        .iframe-container {
+        display: block;
+        width: 100%; /* Make the container span the full available width */
+        margin: 20px 0; /* Space around to separate from other content */
+    }
         .embedded-iframe {
             width: 100%; /* Full width within its container */
             height: auto;
@@ -67,7 +72,9 @@
             </div>
                 <!-- Embed Google Doc iframe -->
     <div class="iframe-wrapper">
+        <div class="iframe-container">
         <iframe class="embedded-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRDnqQehQ6TpfD4GUF238sen4ArlEAN4bRHwpvIdNUXpoluV6tADCOIkqhH__sLkPsdtOB_wyCvtjV1/pub?embedded=true"></iframe>
+        </div>
     </div>
         </main>
     </div>
