@@ -9,32 +9,20 @@
     <script src="menu.js" defer></script> <!-- Include the menu script globally -->
     <link rel="stylesheet" href="styles.css">
     <style>
-        .container {
-            position: relative;
-            z-index: 1;
-        }
-        .iframe-container {
-            position: relative;
-            z-index: 0;
-            margin-top: -100px; /* Adjust this value to move the iframe up or down */
-        }
-        .iframe-wrapper {
-            display: flex;
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
         .embedded-iframe {
-            width: 80%;
+            width: 100%; /* Full width within its container */
             height: 800px;
             border: none;
         }
+    
         @media (max-width: 768px) {
             .embedded-iframe {
-                width: 100%;
+                width: 100%; /* Full width for smaller screens */
+                height: auto; /* Adjust height based on content */
             }
         }
     </style>
+    
 </head>
 
 <body>
@@ -72,21 +60,20 @@
                         </td>
                     </tr>
                 </table>
-            </div>
-
-            <!-- Attribution overlayed on image -->
+                           <!-- Attribution overlayed on image -->
             <div class="attribution-container">
                 <p>Neural net animation by Xponential · <a href="https://youtube.com/@xponentialdesign?si=JU5-eunv3uEazh3h" target="_blank">View more</a></p>
             </div>
+            </div>
+                <!-- Embed Google Doc iframe -->
+    <div class="iframe-wrapper">
+        <iframe class="embedded-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRDnqQehQ6TpfD4GUF238sen4ArlEAN4bRHwpvIdNUXpoluV6tADCOIkqhH__sLkPsdtOB_wyCvtjV1/pub?embedded=true"></iframe>
+    </div>
         </main>
     </div>
 <br>
 <br>
-    <div class="iframe-container">
-        <!-- Embed Google Doc iframe -->
-        <div class="iframe-wrapper">
-            <iframe class="embedded-iframe" src="https://docs.google.com/document/d/e/2PACX-1vRDnqQehQ6TpfD4GUF238sen4ArlEAN4bRHwpvIdNUXpoluV6tADCOIkqhH__sLkPsdtOB_wyCvtjV1/pub?embedded=true"></iframe>
-        </div>
+
     </div>
 </body>
 
