@@ -1,0 +1,13 @@
+Migrated remaining pages off of tumlbr.
+-Claude.ai restyled several pages in a cool retro future style
+-Upon closer inspection Claude.ai used an external style sheet
+--Style sheet was hosted using a googleapi on a google URL
+---I asked Claude to update the coding to remove the external reference
+---Google external sheet was only referencing Google URLs
+---fonts.google.com has all the fonts free for download
+---Created fonts directory at root and downloaded the fonts used
+---Fonts were the only reason for the external style sheet
+---Lesson learned, make sure any AI style changes are future proof
+----Don't rely on external sites or APIs
+----Google is great because they love creative destruction
+-----Don't let site styling be future collateral damage, just keep it all locally saved
