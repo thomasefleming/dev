@@ -97,20 +97,11 @@ header h1 {
   margin: 0;
 }
 
-/* Default styles for thomas e fleming and toronto */
-.header-link-main,
-.highlight-link {
-  color: rgba(105, 105, 105, 0.5);
+.header-link {
+  color: var(--header-link-color);
   text-decoration: none;
   font-size: 1.2em; /* Slightly larger for 'thomas e fleming' */
   vertical-align: middle;
-  transition: color 2s ease, text-shadow 2s ease; /* Smooth transition */
-}
-
-/* Make sure the rest of the page still fades in nicely */
-body {
-  opacity: 0;
-  transition: opacity 1.5s ease;
 }
 
 .toronto-text {
