@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dario Amodei — Privacy</title>
+    <meta property="og:title" content="Dario Amodei — Privacy" />
+    <meta property="og:url" content="https://darioamodei.com/" />
+    <meta property="og:image" content="https://darioamodei.com/images/index-card.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="author" content="Dario Amodei" />
+    <meta name="description"
+        content="Dario Amodei is the CEO of Anthropic, a public benefit corporation dedicated to building AI systems that are steerable, interpretable and safe." />
+
+    <style>
+        html {
+            visibility: hidden;
+        }
+
+        html.js-loaded {
+            visibility: visible;
+        }
+
+        header h1 a {
+            display: block;
+            width: 140px;
+            font-family: Newsreader, serif;
+        }
+    </style>
+
+    <link rel="preload" href="/fonts/Newsreader.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Newsreader-italic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <script>
+        (function () {
+            try {
+                const root = document.documentElement;
+                const classes = ["preload"];
+
+                if (localStorage.getItem("darkMode") === "enabled") {
+                    classes.push("dark-mode");
+                    root.style.setProperty("--bg-color", "#141413");
+                    root.style.setProperty("--text-color", "#f0efea");
+                }
+                root.classList.add(...classes);
+
+                queueMicrotask(() => {
+                    root.classList.add("js-loaded");
+                });
+            } catch (e) {
+                document.documentElement.classList.add(
+                    "preload",
+                    "js-loaded",
+                );
+            }
+        })();
+    </script>
+
+    <script src="https://cdn.usefathom.com/script.js" data-site="VDZFYXIJ" defer></script>
+    <script src="/darkmode.js" defer></script>
+    <script src="/footnotes.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><a href="/">Dario Amodei</a></h1>
+            <div class="header-controls">
+                <div class="toggle-switch">
+                    <input type="checkbox" id="darkModeToggle" class="toggle-input" />
+                    <label for="darkModeToggle" class="toggle-label">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <button id="tocToggle" aria-hidden="true" style="display: none">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <article class="content-container">
+            <h2>Privacy policy</h2>
+            <p>We respect your privacy and aim to collect minimal personal information.</p>
+            <ul>
+                <li><strong>Analytics:</strong> This site uses Fathom Analytics, a privacy-friendly tool that
+                    doesn't use cookies, to gather aggregated analytics which cannot identify you individually.
+                    Your information is de-identified as per CCPA requirements.</li>
+                <li><strong>Email Collection:</strong> If you want to receive notifications about new posts, you can
+                    share your email address using this <a href="/subscribe">form</a>.
+                    This is entirely
+                    optional, and you can unsubscribe at any time by using the opt out/unsubscribe link at the
+                    bottom of any notifications.</li>
+                <li><strong>Purpose:</strong> The aggregated analytics are used to understand website traffic.
+                    If you provide your email, it will be used solely to send you post notifications for this
+                    site.</li>
+                <li><strong>Legal Basis:</strong> The use of aggregated analytics is based on my legitimate
+                    interest to understand activity on the site (GDPR Article 6(1)(f)). Email collection and
+                    processing is based on your consent.</li>
+                <li><strong>Data Sharing:</strong> Your email address is not shared with third parties.</li>
+                <li><strong>Data Retention:</strong> Analytics data is not stored over time. If you provide your
+                    email, it's retained until you unsubscribe.</li>
+                <li><strong>Your Rights:</strong> You have the right to access, correct, or delete your email
+                    address from site records at any time.</li>
+            </ul>
+            <p>For more information about Fathom Analytics' privacy practices, visit <a
+                    href="https://usefathom.com/legal/privacy" target="_blank">their website</a>. If you have
+                any
+                questions about this privacy notice or wish to contact us to exercise any of your
+                rights, please <a href="/cdn-cgi/l/email-protection#4535372c3324263c68352a292c263c682124372c2a68362c312005242b312d372a352c266b262a28">reach out</a>.
+                </section>
+        </article>
+    </main>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        console.log(
+            "%cIf you're curious about making reliable, interpretable, and steerable AI systems, you might enjoy working with us at Anthropic. Take a look at our openings: https://anthropic.com/careers",
+            "font-family: monospace; font-size: 14px; color: #141413; background-color: #F0EFEA; padding: 5px; border-radius: 5px;",
+        );
+    </script>
+</body>
+
+</html>

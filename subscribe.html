@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dario Amodei — Privacy</title>
+    <meta property="og:title" content="Dario Amodei — Privacy" />
+    <meta property="og:url" content="https://darioamodei.com/" />
+    <meta property="og:image" content="https://darioamodei.com/images/index-card.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="author" content="Dario Amodei" />
+    <meta name="description"
+        content="Dario Amodei is the CEO of Anthropic, a public benefit corporation dedicated to building AI systems that are steerable, interpretable and safe." />
+
+    <style>
+        html {
+            visibility: hidden;
+        }
+
+        html.js-loaded {
+            visibility: visible;
+        }
+
+        header h1 a {
+            display: block;
+            width: 140px;
+            font-family: Newsreader, serif;
+        }
+    </style>
+
+    <link rel="preload" href="/fonts/Newsreader.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Newsreader-italic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <script>
+        (function () {
+            try {
+                const root = document.documentElement;
+                const classes = ["preload"];
+
+                if (localStorage.getItem("darkMode") === "enabled") {
+                    classes.push("dark-mode");
+                    root.style.setProperty("--bg-color", "#141413");
+                    root.style.setProperty("--text-color", "#f0efea");
+                }
+                root.classList.add(...classes);
+
+                queueMicrotask(() => {
+                    root.classList.add("js-loaded");
+                });
+            } catch (e) {
+                document.documentElement.classList.add(
+                    "preload",
+                    "js-loaded",
+                );
+            }
+        })();
+    </script>
+
+    <script src="https://cdn.usefathom.com/script.js" data-site="VDZFYXIJ" defer></script>
+    <script src="/darkmode.js" defer></script>
+    <script src="/footnotes.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><a href="/">Dario Amodei</a></h1>
+            <div class="header-controls">
+                <div class="toggle-switch">
+                    <input type="checkbox" id="darkModeToggle" class="toggle-input" />
+                    <label for="darkModeToggle" class="toggle-label">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <button id="tocToggle" aria-hidden="true" style="display: none">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <article class="content-container">
+            <section>
+                <p>
+                    Subscribe for email alerts about new posts:
+                </p>
+                <div class="subscribe-form-container">
+                    <form id="subscribeForm" class="subscribe-form"
+                        action="https://docs.google.com/forms/d/e/1FAIpQLSfG3qq6S5Y1CK5G9Vv-MVoVlpSrXb5nhZWedazSMgi3oNz-Pg/formResponse"
+                        method="POST">
+                        <input type="email" id="emailInput" name="entry.1821458260" required
+                            placeholder="Enter your email" class="email-input" />
+                        <button type="submit" class="submit-button">
+                            Subscribe for future updates
+                        </button>
+                    </form>
+                    <div id="formMessage"></div>
+                </div>
+                <center><a href="/privacy.html">Privacy policy</a></center>
+                <script src="/subscribe.js"></script>
+        </article>
+    </main>
+
+    <script>
+        console.log(
+            "%cIf you're curious about making reliable, interpretable, and steerable AI systems, you might enjoy working with us at Anthropic. Take a look at our openings: https://anthropic.com/careers",
+            "font-family: monospace; font-size: 14px; color: #141413; background-color: #F0EFEA; padding: 5px; border-radius: 5px;",
+        );
+    </script>
+</body>
+
+</html>
